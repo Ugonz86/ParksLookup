@@ -1,4 +1,4 @@
-namespace ParksLookup.Models
+namespace Parks.Models
 {
     public class Park
     {

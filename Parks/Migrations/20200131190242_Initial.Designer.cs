@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ParksLookup.Models;
+using Parks.Models;
 
-namespace ParksLookup.Migrations
+namespace Parks.Migrations
 {
-    [DbContext(typeof(ParksLookupContext))]
-    [Migration("20200131181001_Initial")]
+    [DbContext(typeof(ParksContext))]
+    [Migration("20200131190242_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -18,7 +18,7 @@ namespace ParksLookup.Migrations
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("ParksLookup.Models.Park", b =>
+            modelBuilder.Entity("Parks.Models.Park", b =>
                 {
                     b.Property<int>("ParkId")
                         .ValueGeneratedOnAdd();
