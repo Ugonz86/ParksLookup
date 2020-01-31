@@ -3,6 +3,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Parks.Models;
+using System;
 
 namespace Parks.Controllers
 {
@@ -52,6 +53,35 @@ namespace Parks.Controllers
     {
         return _db.Parks.FirstOrDefault(entry => entry.ParkId == id);
     }
+
+    [HttpGet("{id}")]
+    public ActionResult<Park> GetRandom(int id)
+    {
+      var rand = new Random();
+
+
+      // Random randomId = new Random(id);
+      // int parkIds = ;
+
+      // int mIndex = randomId.Next(parkIds.Length);
+
+      // return randomId;
+
+      // Console.WriteLine(randomId.Next(0,6));
+      // return _db.Parks.FirstOrDefault(entry => entry.ParkId == int.Parse(randomId));
+    }
+
+
+    // [HttpGet("{id}")] //Random
+    // private static readonly Random random = new Random(); 
+    // private static readonly object syncLock = new object(); 
+    // public static int RandomNumber(int id, int max)
+    // {
+    //     lock(syncLock) { // synchronize
+    //         return random.Next(min, max);
+    //     }
+    // }
+
 
     [HttpPut("{id}")]
     public void Put(int id, [FromBody] Park park)
