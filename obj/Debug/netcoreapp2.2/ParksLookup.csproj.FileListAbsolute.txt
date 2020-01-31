@@ -1,0 +1,14 @@
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/bin/Debug/netcoreapp2.2/ParksLookup.deps.json
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/bin/Debug/netcoreapp2.2/ParksLookup.runtimeconfig.json
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/bin/Debug/netcoreapp2.2/ParksLookup.runtimeconfig.dev.json
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/bin/Debug/netcoreapp2.2/ParksLookup.dll
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/bin/Debug/netcoreapp2.2/ParksLookup.pdb
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.csprojAssemblyReference.cache
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.csproj.CoreCompileInputs.cache
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.RazorAssemblyInfo.cache
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.RazorAssemblyInfo.cs
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.AssemblyInfoInputs.cache
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.AssemblyInfo.cs
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.RazorTargetAssemblyInfo.cache
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.dll
+/Users/uriel/Desktop/ParksLookup.Solution/ParksLookup/obj/Debug/netcoreapp2.2/ParksLookup.pdb
