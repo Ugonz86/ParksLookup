@@ -40,11 +40,10 @@ The user can:
 ## Swagger
 
 Visit my project at SwaggerHub:
-* https://app.swaggerhub.com/apis/Ugonz86/my-api/v1
 
 ```sh
 * In command line: Dotnet run
-* On your browser URL: https://localhost:5001/swagger/v1/swagger.json
+* On your browser URL: https://app.swaggerhub.com/apis/Ugonz86/my-api/v1
 ```
 
 ## Known Bugs
