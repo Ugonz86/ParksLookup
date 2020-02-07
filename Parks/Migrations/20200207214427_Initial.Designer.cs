@@ -8,8 +8,8 @@ using Parks.Models;
 namespace Parks.Migrations
 {
     [DbContext(typeof(ParksContext))]
-    [Migration("20200131194111_SeedData")]
-    partial class SeedData
+    [Migration("20200207214427_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

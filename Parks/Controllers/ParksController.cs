@@ -53,41 +53,15 @@ namespace Parks.Controllers
     {
         return _db.Parks.FirstOrDefault(entry => entry.ParkId == id);
     }
-
-//     [HttpGet("{id}")]
-//     public ActionResult<Park> GetRandom(int id)
-//     {
-//       var rand = new Random();
-
-// //this is a test
-// var bytes = new byte[5];
-// rand.NextBytes(bytes);
-// Console.WriteLine("Five random byte values:");
-// foreach (byte byteValue in bytes)
-//     Console.Write("{0, 5}", byteValue);
-// Console.WriteLine(); 
-// return _db.Parks.FirstOrDefault(entry => entry.ParkId == id);
-//       // Random randomId = new Random(id);
-//       // int parkIds = ;
-
-//       // int mIndex = randomId.Next(parkIds.Length);
-
-//       // return randomId;
-
-//       // Console.WriteLine(randomId.Next(0,6));
-//       // return _db.Parks.FirstOrDefault(entry => entry.ParkId == int.Parse(randomId));
-//     }
-
-
-    // [HttpGet("{id}")] //Random
-    // private static readonly Random random = new Random(); 
-    // private static readonly object syncLock = new object(); 
-    // public static int RandomNumber(int id, int max)
-    // {
-    //     lock(syncLock) { // synchronize
-    //         return random.Next(min, max);
-    //     }
-    // }
+    
+    [HttpGet("random")]
+    public ActionResult<Park> Random()
+    {
+      List<Park> parks = _db.Parks.ToList();
+      var randomVar = new Random();
+      int randomId = randomVar.Next(0,parks.Count-1);
+      return parks[randomId];
+    }
 
 
     [HttpPut("{id}")]
