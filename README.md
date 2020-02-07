@@ -27,8 +27,25 @@ The user can:
 
 2. Open the App Settings file (ParksLookup/Parks/appsettings.json) and ensure that the MySQL username and password matches your MySQL credentials.
 
-## Swagger Documentation
-* 
+## Postman
+
+```sh
+* To GET all parks: http://localhost:5000/api/parks/
+* To GET a random park: http://localhost:5000/api/parks/random
+* To GET a specific park by Name: http://localhost:5000/api/parks?name=Mt. Rainier
+* To GET a specific park by Info: http://localhost:5000/api/parks?info=3002 Mt Angeles Rd, Port Angeles, WA 98362
+* To GET a specific park by Alerts: http://localhost:5000/api/parks?alerts=Rain - 39°F
+```
+
+## Swagger
+
+Visit my project at SwaggerHub:
+* https://app.swaggerhub.com/apis/Ugonz86/my-api/v1
+
+```sh
+* In command line: Dotnet run
+* On your browser URL: https://localhost:5001/swagger/v1/swagger.json
+```
 
 ## Known Bugs
 
